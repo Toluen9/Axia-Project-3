@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(180, 52%, 96%);
+    max-width: 1440px;
+}
+header{
+    background-color: hsl(180, 29%, 50%);
+    width: 100%;
+}
+   
+.hero{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 15px;
+   
+}
+    
+
+.photosnap--img{
+    display: flex;
+    gap: 20px;
+}
+
+.phtsnp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photosnap{
+    display: flex;
+    gap: 15px;
+    width: 45%;
+}
+.photo--prg{
+    font-weight: bold;
+    color: hsl(180, 29%, 50%);
+}
+
+.btn--new{
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    border-radius:8px;
+    border-color: hsl(180, 29%, 50%);
+    width: 50px;
+    cursor: pointer;
+}
+.btn--ft{
+    color: white;
+    background-color:black;
+    border-radius:8px;
+    border-color: black;
+    width: 80px;
+    cursor: pointer;
+}
+pre{
+    color: hsl(180, 8%, 52%);
+    font-size: larger;
+}
+.frontend{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* margin-inline-start: ; */
+    width: 50%;
+    align-items: center;
+    font-weight: bold;
+    color:hsl(180, 29%, 50%); 
+}
+.frnt{
+    background-color: hsl(180, 52%, 96%);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* @media (max-width: 762px) {
+} */
+
+
+@media (max-width: 375px) {
+    /* styles for small screens  */
+
+
+    header{
+        background-color: hsl(180, 29%, 50%);
+        width: 375px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 350px;
+        width: 340px;
+        margin: 80px auto;
+        padding: 20px;
+        position: relative;
+        border-radius: 10px;
+        font-family: 'League Spartan', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+    }
+
+    .photosnap--img{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+    .photosnaplogo{
+        position: absolute;
+        top: -3rem;
+
+    }
+
+    .photosnap{
+        display: flex;
+        gap: 15px;
+        margin-top: 2rem;
+    }
+
+    .phtsnp{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 100px; */
+        /* border-bottom: 1px solid hsl(180, 8%, 52%); */
+        padding-bottom: 2rem;
+        width: 340px;
+    }
+    
+
+    .frontend{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+        width: 340px;
+  }
+}
